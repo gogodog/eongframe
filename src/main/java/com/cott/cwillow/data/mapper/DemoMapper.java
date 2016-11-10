@@ -1,8 +1,7 @@
 package com.cott.cwillow.data.mapper;
 
 import com.cott.cwillow.data.model.Demo;
-import com.elong.mobile.commons.db.DataSource;
-
+import com.cott.frame.datasource.aspect.DataSource;
 /**
  * @Title: DemoMapper.java
  * @Package com.cott.cwillow.data.mapper

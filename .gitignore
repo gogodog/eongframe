@@ -1,7 +1,8 @@
 _Store
 .idea/
 target/
-elong-weixin-games.iml
+*.iml
 .project
 .settings/
 .classpath
+pom.xml

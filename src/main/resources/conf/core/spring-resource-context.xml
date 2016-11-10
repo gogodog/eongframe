@@ -51,7 +51,7 @@
         <beans:property name="password" value="${eongframe.write.password}"></beans:property>
     </beans:bean>
 
-    <beans:bean id="DataSource" class="com.elong.mobile.commons.db.ManyDataSource">
+    <beans:bean id="DataSource" class="com.cott.frame.datasource.aspect.ManyDataSource">
         <property name="targetDataSources">
             <map key-type="java.lang.String">
                 <!-- read -->
