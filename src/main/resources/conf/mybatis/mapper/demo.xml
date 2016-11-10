@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cott.cwillow.data.mapper.DemoMapper">
+    <resultMap type="com.cott.cwillow.data.model.Demo" id="demo">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="selectOne" resultMap="demo">
+        SELECT id, name
+        FROM demo
+        WHERE id=#{id}
+    </select>
+</mapper>
