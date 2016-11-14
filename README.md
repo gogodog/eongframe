@@ -3,9 +3,9 @@
 新搭建的一个框架：
 -----------------------------------
 ### 版本： 
-      springmvc mybatis 
-      mysql 
-      maven
+      springmvc3.0 mybatis3.0
+      mysql5.5 
+      mavenX
 ### 功能：
       1：基本功能的跳转
       2：基本功能的数据查询
