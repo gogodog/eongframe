@@ -1,18 +1,18 @@
 # eongframe
 ===================================
 新搭建的一个框架：
-版本： 
-      springmvc mybatis 
-      mysql 
-      maven
-功能：
-      1：基本功能的跳转
-      2：基本功能的数据查询
-      3：读写分离（可注解的读写分离）
-使用：
-      1：配置数据库连接信息
+### 版本： 
+      ### springmvc mybatis 
+      ### mysql 
+      ### maven
+### 功能：
+      ### 1：基本功能的跳转
+      ### 2：基本功能的数据查询
+      ### 3：读写分离（可注解的读写分离）
+### 使用：
+      ### 1：配置数据库连接信息
           jdbc.properties
-      2：执行sql
+      ### 2：执行sql
           SET NAMES utf8;
           SET FOREIGN_KEY_CHECKS = 0;
 
